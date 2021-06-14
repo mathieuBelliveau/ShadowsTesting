@@ -9,7 +9,7 @@ namespace ShadowsTesting
         public App()
         {
             InitializeComponent();
-
+            Sharpnado.Shades.Initializer.Initialize(loggerEnable: false);
             MainPage = new MainPage();
         }
 
